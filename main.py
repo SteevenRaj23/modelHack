@@ -124,7 +124,7 @@ def predict_base_price(data: BookingInput):
         "predicted_price": round(prediction)
     }
 
-model3 = joblib.load('model/hotel_price_model3.pkl')
+model3 = joblib.load('model/hotel_price_model_final.pkl')
 
 
 class BookingInputWithTrends(BaseModel):
